@@ -68,6 +68,7 @@ Here lists my own changes to PEL
 - Scyrous - [*Trainer Class Based Poké Balls](https://github.com/pret/pokeemerald/wiki/Trainer-Class-Based-Pok%C3%A9-Balls)
 - voloved - [*Amulet Coin Effects If Anyone In Party is Holding It](https://github.com/pret/pokeemerald/wiki/Amulet-Coin-Effects-If-Anyone-In-Party-is-Holding-It)
 - Robinlukke - [*Competitive IVs for Eggs](https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-17#post-10449489)
+- Lunos - [*Make Poké Balls usable outside of battles](https://github.com/pret/pokeemerald/compare/master...LOuroboros:oobBalls)
 
 ### Other Credits:
 - People that generally helped out with advice or otherwise
