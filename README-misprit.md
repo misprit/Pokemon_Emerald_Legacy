@@ -60,6 +60,13 @@ Here lists my own changes to PEL
 - cromerc - [Fixed unix build issues](https://github.com/cRz-Shadows/Pokemon_Emerald_Legacy/pull/1)
 - ElusiveEllie - [Fixed INSTALL.md instructions to point to correct project](https://github.com/cRz-Shadows/Pokemon_Emerald_Legacy/pull/8)
 - Scyrous - [Make Move Relearner Teach Egg Moves With A Flag](https://github.com/pret/pokeemerald/wiki/Make-Move-Relearner-Teach-Egg-Moves-With-A-Flag)
+- SBird - [*Simplistic Battle Intro](https://github.com/SBird1337/pokeemerald/tree/battle/simple-intro)
+- SatoMew - [*Simplistic Battle Intro](https://github.com/pret/pokeemerald/wiki/Faster-HP-Drain)
+- Mkol103 - [*Remove the Low Health Beep](https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-10#post-10246778)
+- Jaizu - [*Change bag sound with the ones from FR](https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-8#post-10205757)
+- voloved - [*Trainers No Longer Spin to Face You Right As You Pass Them](https://github.com/pret/pokeemerald/wiki/Trainers-No-Longer-Spin-to-Face-You-Right-As-You-Pass-Them)
+- Scyrous - [*Trainer Class Based Poké Balls](https://github.com/pret/pokeemerald/wiki/Trainer-Class-Based-Pok%C3%A9-Balls)
+
 
 
 ### Other Credits:

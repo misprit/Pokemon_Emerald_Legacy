@@ -22,6 +22,13 @@ struct MultiPartnerMenuPokemon
     /*0x1D*/ u8 language;
 };
 
+// For Trainer Class Based Poké Balls
+struct TrainerBall
+{
+    u8 classId;
+    u8 Ball; // make this a u16 if needed
+};
+
 // defines for the u8 array gTypeEffectiveness
 #define TYPE_EFFECT_ATK_TYPE(i)((gTypeEffectiveness[i + 0]))
 #define TYPE_EFFECT_DEF_TYPE(i)((gTypeEffectiveness[i + 1]))
