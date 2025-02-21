@@ -66,7 +66,7 @@ Here lists my own changes to PEL
 - Jaizu - [*Change bag sound with the ones from FR](https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-8#post-10205757)
 - voloved - [*Trainers No Longer Spin to Face You Right As You Pass Them](https://github.com/pret/pokeemerald/wiki/Trainers-No-Longer-Spin-to-Face-You-Right-As-You-Pass-Them)
 - Scyrous - [*Trainer Class Based Poké Balls](https://github.com/pret/pokeemerald/wiki/Trainer-Class-Based-Pok%C3%A9-Balls)
-
+- voloved - [*Amulet Coin Effects If Anyone In Party is Holding It](https://github.com/pret/pokeemerald/wiki/Amulet-Coin-Effects-If-Anyone-In-Party-is-Holding-It)
 
 
 ### Other Credits:
