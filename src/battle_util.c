@@ -3212,7 +3212,7 @@ enum
 };
 
 #define TRY_EAT_CONFUSE_BERRY(flavor)                                                       \
-    if (gBattleMons[battlerId].hp <= gBattleMons[battlerId].maxHP / 2 && !moveTurn)         \
+    if (gBattleMons[battlerId].hp <= gBattleMons[battlerId].maxHP / 4 && !moveTurn)         \
     {                                                                                       \
         PREPARE_FLAVOR_BUFFER(gBattleTextBuff1, flavor);                                    \
         gBattleMoveDamage = gBattleMons[battlerId].maxHP / battlerHoldEffectParam;          \
