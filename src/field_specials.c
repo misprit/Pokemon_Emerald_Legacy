@@ -65,6 +65,7 @@
 #include "constants/weather.h"
 #include "constants/metatile_labels.h"
 #include "palette.h"
+#include "event_data.h"
 
 #define TAG_ITEM_ICON 5500
 
@@ -1087,6 +1088,8 @@ static void PCTurnOnEffect(struct Task *task)
 static void PCTurnOnEffect_SetMetatile(s16 isScreenOn, s8 dx, s8 dy)
 {
     u16 metatileId = 0;
+    if(gSysPcFromPokenav)
+        return;
     if (isScreenOn)
     {
         // Screen is on, set it off
@@ -1124,6 +1127,10 @@ static void PCTurnOffEffect(void)
 
     // Get where the PC should be, depending on where the player is looking.
     u8 playerDirection = GetPlayerFacingDirection();
+    if(gSysPcFromPokenav){
+        gSysPcFromPokenav = FALSE;
+        return;
+    }
     switch (playerDirection)
     {
     case DIR_NORTH:

@@ -70,6 +70,7 @@ Here lists my own changes to PEL
 - Robinlukke - [*Competitive IVs for Eggs](https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-17#post-10449489)
 - Lunos - [*Make Poké Balls usable outside of battles](https://github.com/pret/pokeemerald/compare/master...LOuroboros:oobBalls)
 - voloved - [*Show Type Effectiveness In Battle Using Pre Existing Function and Disable in Option Menu](https://github.com/pret/pokeemerald/wiki/Show-Type-Effectiveness-In-Battle-Using-Pre-Existing--Function-and-Disable-in-Option-Menu)
+- voloved - [*Add PC Access in PokeNav](https://github.com/pret/pokeemerald/wiki/Add-PC-Access-in-PokeNav)
 
 ### Other Credits:
 - People that generally helped out with advice or otherwise
