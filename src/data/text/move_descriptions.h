@@ -50,8 +50,8 @@ static const u8 sGuillotineDescription[] = _(
     "that may cause fainting.");
 
 static const u8 sRazorWindDescription[] = _(
-    "Traps and hurts the foe in\n"
-    "a windstorm for 2 to 5 turns.");
+    "Traps foe in windstorm.\n"
+    "May lower SPEED.");
 
 static const u8 sSwordsDanceDescription[] = _(
     "A fighting dance that\n"
@@ -954,8 +954,8 @@ static const u8 sCrossChopDescription[] = _(
     "High critical-hit ratio.");
 
 static const u8 sTwisterDescription[] = _(
-    "Whips up a vicious twister\n"
-    "to tear at the foe.");
+    "Whips up a vicious twister,\n"
+    "but sharply lowers SP. ATK.");
 
 static const u8 sRainDanceDescription[] = _(
     "Boosts the power of WATER-\n"
@@ -1255,7 +1255,7 @@ static const u8 sFakeTearsDescription[] = _(
 
 static const u8 sAirCutterDescription[] = _(
     "Hacks with razorlike wind.\n"
-    "High critical-hit ratio.");
+    "May cause flinching.");
 
 static const u8 sOverheatDescription[] = _(
     "Allows a full-power attack,\n"

@@ -4240,6 +4240,7 @@ const union {
     [SPECIES_FURRET] = { .learnset = {
         .FOCUS_PUNCH = TRUE,
         .WATER_PULSE = TRUE,
+        .CALM_MIND = TRUE,
         .TOXIC = TRUE,
         .HIDDEN_POWER = TRUE,
         .SUNNY_DAY = TRUE,
@@ -5896,6 +5897,7 @@ const union {
         .FRUSTRATION = TRUE,
         .EARTHQUAKE = TRUE,
         .RETURN = TRUE,
+        .SHADOW_BALL = TRUE,
         .DOUBLE_TEAM = TRUE,
         .AERIAL_ACE = TRUE,
         .FACADE = TRUE,
@@ -8764,6 +8766,7 @@ const union {
         .RAIN_DANCE = TRUE,
         .SAFEGUARD = TRUE,
         .FRUSTRATION = TRUE,
+        .THUNDERBOLT = TRUE,
         .SOLAR_BEAM = TRUE,
         .IRON_TAIL = TRUE,
         .EARTHQUAKE = TRUE,

@@ -5705,6 +5705,7 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_METRONOME)
                                 | TUTOR(MOVE_DREAM_EATER)
                                 | TUTOR(MOVE_THUNDER_WAVE)
+                                | TUTOR(MOVE_ROCK_SLIDE)
                                 | TUTOR(MOVE_SUBSTITUTE)
                                 | TUTOR(MOVE_DYNAMIC_PUNCH)
                                 | TUTOR(MOVE_PSYCH_UP)

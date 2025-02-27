@@ -1,7 +1,101 @@
 # Pokémon Emerald Legacy-misprit
 Here lists my own changes to PEL
 
+Move changes
+headbutt->iron_head normal->steel power 70->80
+air_cutter->air_slash power55->80 accuracy ->95 pp 25->15 add flinch 30% remove crit.up 
+razor_wind power 35->80 add lower speed chance 50% remove trap effect
+knock_off priority 0->1
+sand_tomb power 35->100 accuracy ->80
+twister->draco_storm power 40->140 accuracy ->90 satk -2
 
+Ability changes
+added fur_coat
+
+Pokemon changes
+162 furret 455/500
+normal+ghost
+hp 150 252
+atk 45
+def 60 252
+satk 75
+sdef 80 
+spd 90 4
+bold furcoat leftover
+Substitute
+will o wisp(level up)
+calm mind(TM)
+shadow punch(level up)
+
+226 mantine 485/555
+water+ghost
+hp 85 4
+atk 70
+def 70
+satk 120 252
+sdef 95
+spd 115 252
+timid levitate mago
+shadow ball(TM)
+Hydropump
+ice beam
+mirror coat
+
+309 flygon 485/600
+ground+flying
+hp 90 4
+atk 125 252
+def 90
+satk 115
+sdef 80
+spd 100 252
+naive compound-eyes choice band
+sand tomb
+sky attack(level up)
+fireblast
+rockslide
+
+334 altaria 520/600
+fire+dragon
+hp 110
+atk 80
+def 80 6
+satk 130 252
+sdef 110
+spd 90 252
+modest nature cure figy berry
+flamethrower
+twister(level up)
+thunderbolt(TM)
+heal bell
+
+359 absol 485/555
+dark+steel
+hp 95 252
+atk 130
+def 100
+satk 70
+sdef 85 172
+spd 75 84
+calm intimidate mago
+iron tail
+knock off(level up)
+razor wind
+sword dance
+
+385 jirachi 540/600
+steel+flying
+hp 100 4
+atk 125 252
+def 120
+satk 60
+sdef 80
+spd 115 252
+jolly serene grace lum berry
+headbutt(level up)
+aircutter(level up)
+rockslide(tutor)
+sword dance(level up)
 
 ### Code Credits(misprit introduced are marked with *):
 - Voloved:
