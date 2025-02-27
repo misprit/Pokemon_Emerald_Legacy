@@ -544,32 +544,32 @@ static const u8 sLumBerryDesc[] = _(
 
 static const u8 sSitrusBerryDesc[] = _(
     "A hold item that\n"
-    "restores 30 HP in\n"
-    "battle.");
+    "restores 1/4 of\n"
+    "max HP in battle.");
 
 static const u8 sFigyBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
+    "Restores 1/2 max\n"
+    "HP in a pinch but\n"    
     "may confuse.");
 
 static const u8 sWikiBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
+    "Restores 1/2 max\n"
+    "HP in a pinch but\n"    
     "may confuse.");
 
 static const u8 sMagoBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
+    "Restores 1/2 max\n"
+    "HP in a pinch but\n"    
     "may confuse.");
 
 static const u8 sAguavBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
+    "Restores 1/2 max\n"
+    "HP in a pinch but\n"    
     "may confuse.");
 
 static const u8 sIapapaBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
+    "Restores 1/2 max\n"
+    "HP in a pinch but\n"    
     "may confuse.");
 
 static const u8 sRazzBerryDesc[] = _(
