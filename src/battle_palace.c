@@ -85,13 +85,14 @@ static void InitPalaceChallenge(void)
 {
     u32 lvlMode = gSaveBlock2Ptr->frontier.lvlMode;
     u32 battleMode = VarGet(VAR_FRONTIER_BATTLE_MODE);
+    u32 palaceWinStreakn = gSaveBlock2Ptr->frontier.palaceWinStreaks[battleMode][lvlMode];
 
     gSaveBlock2Ptr->frontier.challengeStatus = 0;
     gSaveBlock2Ptr->frontier.curChallengeBattleNum = 0;
     gSaveBlock2Ptr->frontier.challengePaused = FALSE;
     gSaveBlock2Ptr->frontier.disableRecordBattle = FALSE;
     if (!(gSaveBlock2Ptr->frontier.winStreakActiveFlags & sWinStreakFlags[battleMode][lvlMode]))
-        gSaveBlock2Ptr->frontier.palaceWinStreaks[battleMode][lvlMode] = 0;
+        gSaveBlock2Ptr->frontier.palaceWinStreaks[battleMode][lvlMode] = palaceWinStreakn - (palaceWinStreakn % 7);
 
     SetDynamicWarp(0, gSaveBlock1Ptr->location.mapGroup, gSaveBlock1Ptr->location.mapNum, WARP_ID_NONE);
     gTrainerBattleOpponent_A = 0;

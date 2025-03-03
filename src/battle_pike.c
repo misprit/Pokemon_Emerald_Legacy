@@ -1614,12 +1614,13 @@ static void RestoreMonHeldItems(void)
 static void InitPikeChallenge(void)
 {
     u8 lvlMode = gSaveBlock2Ptr->frontier.lvlMode;
+    u32 pikeWinStreakn = gSaveBlock2Ptr->frontier.pikeWinStreaks[lvlMode];
 
     gSaveBlock2Ptr->frontier.challengeStatus = 0;
     gSaveBlock2Ptr->frontier.curChallengeBattleNum = 0;
     gSaveBlock2Ptr->frontier.challengePaused = FALSE;
     if (!(gSaveBlock2Ptr->frontier.winStreakActiveFlags & sWinStreakFlags[lvlMode]))
-        gSaveBlock2Ptr->frontier.pikeWinStreaks[lvlMode] = 0;
+        gSaveBlock2Ptr->frontier.pikeWinStreaks[lvlMode] = pikeWinStreakn - (pikeWinStreakn % 14);
 
     gTrainerBattleOpponent_A = 0;
     gBattleOutcome = 0;

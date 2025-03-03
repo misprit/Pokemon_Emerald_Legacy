@@ -200,6 +200,7 @@ static void InitFactoryChallenge(void)
     u8 i;
     u32 lvlMode = gSaveBlock2Ptr->frontier.lvlMode;
     u32 battleMode = VarGet(VAR_FRONTIER_BATTLE_MODE);
+    u32 factoryWinStreakn = gSaveBlock2Ptr->frontier.factoryWinStreaks[battleMode][lvlMode];
 
     gSaveBlock2Ptr->frontier.challengeStatus = 0;
     gSaveBlock2Ptr->frontier.curChallengeBattleNum = 0;
@@ -207,8 +208,8 @@ static void InitFactoryChallenge(void)
     gSaveBlock2Ptr->frontier.disableRecordBattle = FALSE;
     if (!(gSaveBlock2Ptr->frontier.winStreakActiveFlags & sWinStreakFlags[battleMode][lvlMode]))
     {
-        gSaveBlock2Ptr->frontier.factoryWinStreaks[battleMode][lvlMode] = 0;
-        gSaveBlock2Ptr->frontier.factoryRentsCount[battleMode][lvlMode] = 0;
+        gSaveBlock2Ptr->frontier.factoryWinStreaks[battleMode][lvlMode] = factoryWinStreakn - (factoryWinStreakn % 7);
+        //gSaveBlock2Ptr->frontier.factoryRentsCount[battleMode][lvlMode] = 0;
     }
 
     sPerformedRentalSwap = FALSE;

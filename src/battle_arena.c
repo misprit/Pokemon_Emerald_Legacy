@@ -664,6 +664,7 @@ static void InitArenaChallenge(void)
 {
     bool32 isCurrent;
     u32 lvlMode = gSaveBlock2Ptr->frontier.lvlMode;
+    u32 arenaWinStreakn = gSaveBlock2Ptr->frontier.arenaWinStreaks[lvlMode];
 
     gSaveBlock2Ptr->frontier.challengeStatus = 0;
     gSaveBlock2Ptr->frontier.curChallengeBattleNum = 0;
@@ -675,7 +676,7 @@ static void InitArenaChallenge(void)
         isCurrent = gSaveBlock2Ptr->frontier.winStreakActiveFlags & STREAK_ARENA_50;
 
     if (!isCurrent)
-        gSaveBlock2Ptr->frontier.arenaWinStreaks[lvlMode] = 0;
+        gSaveBlock2Ptr->frontier.arenaWinStreaks[lvlMode] = arenaWinStreakn - (arenaWinStreakn % 7);
 
     SetDynamicWarp(0, gSaveBlock1Ptr->location.mapGroup, gSaveBlock1Ptr->location.mapNum, WARP_ID_NONE);
     gTrainerBattleOpponent_A = 0;

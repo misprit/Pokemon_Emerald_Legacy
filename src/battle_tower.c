@@ -910,6 +910,7 @@ static void InitTowerChallenge(void)
 {
     u32 lvlMode = gSaveBlock2Ptr->frontier.lvlMode;
     u32 battleMode = VarGet(VAR_FRONTIER_BATTLE_MODE);
+    u32 towerWinStreakn = gSaveBlock2Ptr->frontier.towerWinStreaks[battleMode][lvlMode];
 
     gSaveBlock2Ptr->frontier.challengeStatus = CHALLENGE_STATUS_SAVING;
     gSaveBlock2Ptr->frontier.curChallengeBattleNum = 0;
@@ -917,7 +918,7 @@ static void InitTowerChallenge(void)
     gSaveBlock2Ptr->frontier.disableRecordBattle = FALSE;
     ResetFrontierTrainerIds();
     if (!(gSaveBlock2Ptr->frontier.winStreakActiveFlags & sWinStreakFlags[battleMode][lvlMode]))
-        gSaveBlock2Ptr->frontier.towerWinStreaks[battleMode][lvlMode] = 0;
+        gSaveBlock2Ptr->frontier.towerWinStreaks[battleMode][lvlMode] = towerWinStreakn - (towerWinStreakn % 7);
 
     ValidateBattleTowerRecordChecksums();
     SetDynamicWarp(0, gSaveBlock1Ptr->location.mapGroup, gSaveBlock1Ptr->location.mapNum, WARP_ID_NONE);

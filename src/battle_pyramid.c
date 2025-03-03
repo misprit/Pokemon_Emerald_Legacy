@@ -841,6 +841,7 @@ static void InitPyramidChallenge(void)
 {
     bool32 isCurrent;
     u32 lvlMode = gSaveBlock2Ptr->frontier.lvlMode;
+    u32 pyramidWinStreakn = gSaveBlock2Ptr->frontier.pyramidWinStreaks[lvlMode];
 
     gSaveBlock2Ptr->frontier.challengeStatus = 0;
     gSaveBlock2Ptr->frontier.curChallengeBattleNum = 0;
@@ -852,8 +853,9 @@ static void InitPyramidChallenge(void)
 
     if (!isCurrent)
     {
-        gSaveBlock2Ptr->frontier.pyramidWinStreaks[lvlMode] = 0;
-        InitPyramidBagItems(lvlMode);
+        gSaveBlock2Ptr->frontier.pyramidWinStreaks[lvlMode] = pyramidWinStreakn - (pyramidWinStreakn % 7);
+        if (pyramidWinStreakn - (pyramidWinStreakn % 7) == 0)
+            InitPyramidBagItems(lvlMode);
     }
 
     InitBattlePyramidBagCursorPosition();
