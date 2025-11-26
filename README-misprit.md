@@ -12,6 +12,14 @@ twister->draco_storm power 40->140 accuracy ->90 satk -2
 eruption MOVE_TARGET_FOES_AND_ALLY
 waters_pout MOVE_TARGET_FOES_AND_ALLY
 
+Move changes
+raichu add fakeout
+
+Item changes
+lightball add effect to whole pikachu family
+soudew effective in frontier
+type powerup items change to Gen IV style 10%->20%
+
 Ability changes
 added fur_coat
 
