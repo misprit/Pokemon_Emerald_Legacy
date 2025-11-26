@@ -11,6 +11,7 @@ sand_tomb power 35->100 accuracy ->80
 twister->draco_storm power 40->140 accuracy ->90 satk -2
 eruption MOVE_TARGET_FOES_AND_ALLY
 waters_pout MOVE_TARGET_FOES_AND_ALLY
+mistball & lusterpurge power 70->95
 
 Move changes
 raichu add fakeout
@@ -19,6 +20,7 @@ Item changes
 lightball add effect to whole pikachu family
 soudew effective in frontier
 type powerup items change to Gen IV style 10%->20%
+added heart scale & pp up purchase
 
 Ability changes
 added fur_coat

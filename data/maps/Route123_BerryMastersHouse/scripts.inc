@@ -44,6 +44,8 @@ Route123_BerryMastersHouse_EventScript_BerryShop::
 
 	.align 2
 Route123_BerryMastersHouse_Pokemart_BerryShop:
+	.2byte ITEM_LUM_BERRY
+	.2byte ITEM_SITRUS_BERRY
 	.2byte ITEM_FIGY_BERRY
 	.2byte ITEM_WIKI_BERRY
 	.2byte ITEM_MAGO_BERRY
